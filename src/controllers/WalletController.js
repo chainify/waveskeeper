@@ -1,7 +1,7 @@
 import ObservableStore from 'obs-store';
 import *  as SG from '@waves/signature-generator'
 import {encrypt, decrypt} from '../lib/encryprtor';
-import {Seed} from '@waves/signature-generator'
+import {Seed} from '@waves/signature-generator';
 import {Wallet} from "../lib/wallet";
 
 export class WalletController {
@@ -180,6 +180,16 @@ export class WalletController {
             signature,
             version
         }
+    }
+
+    async encrypt(address, message, recieverPublicKey) {
+        const wallet = this._findWallet(address); 
+        return wallet.encrypt(message, recieverPublicKey);
+    }
+
+    async decrypt(address, message, senderPublicKey) {
+        const wallet = this._findWallet(address);
+        return wallet.decrypt(message, senderPublicKey);
     }
 
     // Private

@@ -1,7 +1,10 @@
 import {getAdapterByType} from '@waves/signature-adapter'
 import {BigNumber} from '@waves/data-entities';
 import create from 'parse-json-bignumber';
+import wc from 'waves-crypto';
+import { encryptMessage, decryptMessage } from './cipherUtils';
 const {stringify, parse} = create({BigNumber});
+
 
 export class Wallet {
     constructor(user) {
@@ -35,6 +38,16 @@ export class Wallet {
 
     getSecret() {
         return this.user.seed
+    }
+
+    async encrypt(message, recieverPublicKey) {
+        const privateKey = await this._adapter.getPrivateKey();
+        return encryptMessage(message, privateKey, recieverPublicKey); 
+    }
+
+    async decrypt(message, senderPublicKey) {
+        const privateKey = await this._adapter.getPrivateKey();
+        return decryptMessage(message, privateKey, senderPublicKey); 
     }
 
     async signTx(tx){

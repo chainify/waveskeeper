@@ -428,6 +428,32 @@ class BackgroundService extends EventEmitter {
             return this._publicState(this.getState(), origin);
         };
 
+        api.decrypt = async (message, senderPublicKey) => {
+            const state = this.getState();
+            const { selectedAccount, initialized } = state;
+
+            if (!selectedAccount) {
+                throw !initialized ? ERRORS.INIT_KEEPER() : ERRORS.EMPTY_KEEPER();
+            }
+
+            await this.validatePermission(origin);
+
+            return this.walletController.decrypt(selectedAccount.address, message, senderPublicKey);
+        }
+
+        api.encrypt = async (message, recieverPublicKey) => {
+            const state = this.getState();
+            const { selectedAccount, initialized } = state;
+
+            if (!selectedAccount) {
+                throw !initialized ? ERRORS.INIT_KEEPER() : ERRORS.EMPTY_KEEPER();
+            }
+
+            await this.validatePermission(origin); 
+
+            return this.walletController.encrypt(selectedAccount.address, message, recieverPublicKey);
+        }
+
         // if (origin === 'client.wavesplatform.com') {
         //     api.signBytes = async (data, from) => {
         //         if (!Array.isArray(data)) {
