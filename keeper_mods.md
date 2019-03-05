@@ -10,9 +10,12 @@
 	4. Reciever дешифрует сообщение с помощью AES из cryptoJS
 
 [Демо на codepen](https://codepen.io/kmadorin/pen/zygzQb?editors=1111)
+
 Сид фразы для публичных ключей из демо:
+
 Alice:
 "twelve patient sleep barrel judge bonus roast rain job resource spare owner"
+
 Bob: 
 "skull empower word area cruel flag accident speed absorb idle slam tattoo"
 
