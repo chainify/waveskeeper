@@ -36,7 +36,11 @@
 		"saveBackup": "Save backup phrase"
 	},
 	"bottom": {
+		"custom": "Custom",
 		"mainnet": "Mainnet",
+		"network": {
+			"edit": "Edit"
+		},
 		"testnet": "Testnet"
 	},
 	"changeName": {
@@ -125,11 +129,24 @@
 	"messageList": {
 		"pendingConfirm": "Pending confirmation"
 	},
+	"networkSettings": {
+		"cancel": "Cancel",
+		"customNetwork": "network",
+		"matcherError": "Incorrect matcher address",
+		"nodeError": "Incorrect node address",
+		"nodeUrlEmpty": "URL is required",
+		"saveAndApply": "Save and apply",
+		"title": "Network"
+	},
 	"networksSettings": {
 		"copied": "Copied!",
 		"matcher": "Matcher address",
 		"network": "Network",
+		"networkPrefix": "You must specify 1 character",
+		"networkPrefixDescri[ption": "Network prefix",
 		"node": "Node address",
+		"node_code": "Network Prefix",
+		"node_code_hint": "You must specify 1 character",
 		"save": "Save",
 		"savedModal": "Saved!",
 		"setDefault": "Set Default",
@@ -172,6 +189,10 @@
 		"appInfo": "Download our mobile applications below:",
 		"scanInfo": "Scan the code below with your iPhone or Android device to pair it with your account.",
 		"scanPairing": "Scan Pairing Code"
+	},
+	"permission": {
+		"customList": "customList",
+		"whiteList": "whiteList"
 	},
 	"permissionsSettings": {
 		"button": {
@@ -276,6 +297,7 @@
 		"assetScriptTransaction": "Set Asset Script transaction",
 		"assetScriptWarningDescription": "We do not recommend you submit script transactions unless you are an experienced user.",
 		"assetScriptWarningHeader": "Warning: actions can block transactions with your asset",
+		"attachment": "Attachment",
 		"burn": "Token Burn",
 		"cancelLease": "Cancel Lease",
 		"clearSponsored": "Disable Sponsorship",
