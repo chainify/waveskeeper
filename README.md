@@ -53,24 +53,24 @@ If you have't use Waves Keeper before, no action required.
 ## In Waves Keeper
 Create a password
 
-<img src="static/pass.png" width="240">
+<img src="static/pass.png" width="240" style="border: 1px solid #ccc;">
 
 Switch Mainnet to Testnet
 
-<img src="static/testnet.png" width="240">
+<img src="static/testnet.png" width="240" style="border: 1px solid #ccc;">
 
 Create new account or import existing
 
-<img src="static/seed.png" width="240">
+<img src="static/seed.png" width="240" style="border: 1px solid #ccc;">
 
 
 Provide Account Name. This is ypur public name than averyone will see. We will upgrade naming feature later on if needed.
 
-<img src="static/name.png" width="240">
+<img src="static/name.png" width="240" style="border: 1px solid #ccc;">
 
 Copy your address account
 
-<img src="static/screen.png" width="240">
+<img src="static/screen.png" width="240" style="border: 1px solid #ccc;">
 
 ## Faucet
 
