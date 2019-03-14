@@ -52,6 +52,7 @@ If you have't use Waves Keeper before, no action required.
 
 ## In Waves Keeper
 Create a password
+
 <img src="static/pass.png" width="240" />
 
 Switch Mainnet to Testnet
