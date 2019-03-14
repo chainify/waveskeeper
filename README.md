@@ -53,30 +53,30 @@ If you have't use Waves Keeper before, no action required.
 ## In Waves Keeper
 Create a password
 
-![alt text](static/pass.png "Dist")
+<img src="static/pass.png" width="240">
 
 Switch Mainnet to Testnet
 
-![alt text](static/testnet.png "Dist")
+<img src="static/testnet.png" width="240">
 
 Create new account or import existing
 
-![alt text](static/seed.png "Dist")
+<img src="static/seed.png" width="240">
+
 
 Provide Account Name. This is ypur public name than averyone will see. We will upgrade naming feature later on if needed.
 
-![alt text](static/name.png "Dist")
+<img src="static/name.png" width="240">
 
 Copy your address account
 
-![alt text](static/screen.png "Dist")
-
+<img src="static/screen.png" width="240">
 
 ## Faucet
 
 Visit https://chainify.org/faucet
 
-Inser your address and request tokens. You will recieve 1 CNFY-Stage token, which is enougth for sending 1000 messages because each message costs 0.001 CNFY-Stage tokens. That token is needed for sending transactions. 
+Inser your address and request tokens. You will recieve 1 CNFY-Stage token. That token is needed for sending transactions. 
 
 
 ## Messaging app
@@ -91,9 +91,6 @@ Every encrypted message is stored in IPFS network like this
 -----BEGIN 3MzC5511h65zxHXwkVhMNqs9E1sjBT4RCF1-----
 7/I7g2sK2l90k/t9BYWs3UvYIgBxpryq3wvTJ5NRTBY=
 -----END 3MzC5511h65zxHXwkVhMNqs9E1sjBT4RCF1-----
------BEGIN 3N6csq3HEehL3v13DfswiDZi5K3TmpJcxUB-----
-7/I7g2sK2l90k/t9BYWs3UvYIgBxpryq3wvTJ5NRTBY=
------END 3N6csq3HEehL3v13DfswiDZi5K3TmpJcxUB-----
 ```
 
 Feel free to check it [here](https://chainify.org/ipfs/QmVT7syUdYNhLjt1f5KLsCWvWS3GCS456XDH8AiPDg6CVi)
