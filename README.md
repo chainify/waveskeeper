@@ -53,7 +53,9 @@ If you have't use Waves Keeper before, no action required.
 ## In Waves Keeper
 Create a password
 
-<img src="static/pass.png" width="240" style="border: 1px solid #999;">
+<div style="display: inline-block; padding: 10px; background: #ddd;">
+<img src="static/pass.png" width="240">
+</div>
 
 Switch Mainnet to Testnet
 
@@ -61,7 +63,7 @@ Switch Mainnet to Testnet
 
 Create new account or import existing
 
-<img src="static/seed.png" width="240" style="border: 1px solid #999;">
+<img src="static/seed.png" width="240" style="border: 1px solid #999; display: block;">
 
 
 Provide Account Name. This is ypur public name than averyone will see. We will upgrade naming feature later on if needed.
